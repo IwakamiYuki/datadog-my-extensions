@@ -1,6 +1,6 @@
 {
 	"manifest_version": 2,
-	"name": "chatwork-my-extensions",
+	"name": "datadog-my-extensions",
 	"version": "2018.07.31",
 	"description": "データドッグを拡張する",
 	"author": "IwakamiYuki",
