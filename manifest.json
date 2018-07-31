@@ -1,0 +1,26 @@
+{
+	"manifest_version": 2,
+	"name": "chatwork-my-extensions",
+	"version": "2018.07.31",
+	"description": "データドッグを拡張する",
+	"author": "IwakamiYuki",
+	"icons": {
+		"16" : "icon16.png",
+		"48" : "icon48.png",
+		"128" : "icon128.png"
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"https://app.datadoghq.com/*"
+			],
+			"css": [
+				"style.css"
+			]
+		}
+	],
+	"permissions": [
+	],
+	"background": {
+	}
+}
